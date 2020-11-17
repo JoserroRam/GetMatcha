@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+    border-style: solid;
+}
+
+body{
+    font-family: 'IBM Plex Sans',Arial,sans-serif;
+}
+
+/* Section HEADER */
+
+header{
+    padding: 60px 95px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: -.5px;
+}
+
+header a{
+    display: flex;
+    align-items: center;
+}
+
+#logoImg{
+    width: 186px;
+}
+
+header nav{
+    width: 625px;
+}
+
+ul{
+    list-style: none;
+}
+
+header nav li a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #025157;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions{
+    display: flex;
+    justify-content: flex-start;
+    width:210px;
+    align-items: center;
+}
+
+.actions a{
+    color: #025157;
+    text-decoration: none;
+    text-decoration-color: #025157;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.actions button{
+    margin-left: 10px;
+    width: 144px;
+    height: 44px;
+    padding: 15px 20px;
+    border-width: 1;
+    border-style: solid;
+    border: teal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1em;
+    text-align: center;
+    color: #fff;
+    background-color: #025157;
+    border-radius: 8px;
+}
+
+.actions button:hover{
+    background-color: #67b54b;
+}
+
+/* Section Start Fee Trial */
+
+.startTrialSection{
+    width: 90%;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.hookupContainer{
+    display: flex;
+
+}
+
+.trialTextContainer{
+    width: 670px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+h1{
+    font-size: 60px;
+    font-family: vesterbroextrabold,serif;
+    font-weight: 700!important;
+    color: #025157;
+}
+
+.trialTextContainer p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #46484c;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+#h1Last{
+    margin-bottom: 24px;
+}
+
+.signUpForm{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.signUpForm p{
+    font-size: 14px;
+    color: #8b8b8bcc;
+}
+
+.trialTextContainer button{
+    margin-right: 20px;
+    width: 144px;
+    height: 44px;
+    padding: 15px 20px;
+    border-width: 1;
+    border-style: solid;
+    border: teal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1em;
+    text-align: center;
+    color: #fff;
+    background-color: #67b54b;
+    border-radius: 8px;
+}
+
+.trialTextContainer img{
+    width: 158px;
+    height:22px;
+}
+
+.trialTextDisclaimer{
+    width: 640px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    margin-top: 15px;
+}
+
+.trialVidContainer{
+    width: 570px;
+    height: 490px;
+    background-image: url("./img/videoImgs/full.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trialVidContainer button{
+    opacity: 0.65;
+    width: 114px;
+    height: 100px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    background-color: #025157;
+    border-radius: 5px;
+}
+
+.trialVidContainer button:hover{
+    opacity: 1;
+    background-color: #67b54b;
+}
+
+.trialVidContainer i{
+    font-weight: 900;
+}
+
+.brandsSection{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.brandsSection p{
+    font-size: 13px;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    color: #4a4a4a;
+    opacity: 0.4;
+}
+
+.item1{grid-area: item1;}
+.item2{grid-area: item2;}
+.item3{grid-area: item3;}
+.item4{grid-area: item4;}
+.item5{grid-area: item5;}
+.item6{grid-area: item6;}
+
+.brandsContainer{
+    margin-top: 50px;
+    display: grid;
+    gap: 60px;
+    grid-template-areas: 
+    'item1 item2 item3 item4 item5 item6'
+    ;
+}
+
+
+/* Features Section */
+
+.featuresSection{
+    width: 90%;
+    margin: 300px auto 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.featuresSection img{
+    width: 415px;
+    height: 278px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+.featuresSection h1{
+    margin-bottom: 15px;
+}
+
+.featuresSection .featureP{
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+
+.featuresSection p{
+    color: #343434;
+}
+
+.featuresImg1{grid-area: img1;}
+.featuresImg2{grid-area: img2;}
+.featuresImg3{grid-area: img3;}
+.featuresItem1{grid-area: item1;}
+.featuresItem2{grid-area: item2;}
+.featuresItem3{grid-area: item3;}
+.featuresItem4{grid-area: item4;}
+.featuresItem5{grid-area: item5;}
+.featuresItem6{grid-area: item6;}
+
+.featuresHeader{
+    font-size: 24px;
+}
+
+.featuresParagraph{
+    font-size: 18px;
+}
+
+.featuresContainer{
+    width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    gap:20px;
+    grid-template-areas:
+    'img1 img2 img3'
+    'item1 item2 item3'
+    'item4 item5 item6'
+    ;
+    text-align: center;
+}
