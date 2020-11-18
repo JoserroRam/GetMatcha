@@ -1,9 +1,45 @@
-@media (max-width: 575px){
-    navbar,
-    logoImg
-
-
-
-    
-
+@media (max-width: 1440px){
+    .featuresContainer{
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        gap:20px;
+        grid-template-areas:
+        'img1'
+        'item1'
+        'item4'
+        'img2'
+        'item2'
+        'item5'
+        'img3'
+        'item3'
+        'item6'
+        ;
+        text-align: center;
+    }
+    .featuresParagraph{
+        margin-bottom: 50px;
+    }
+    .hookupContainer{
+        display: flex ;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 700px;
+        align-items: center;
+        text-align: center;
+    }
+    .signUpForm{
+        align-items: center;
+        flex-direction: column;
+    }
+    .brandsContainer{
+        margin-top: 50px;
+        display: grid;
+        gap: 60px;
+        grid-template-areas: 
+        'item1 item2 item3'
+        'item4 item5 item6'
+        ;
+    }
 }

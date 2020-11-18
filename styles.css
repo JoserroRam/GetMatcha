@@ -100,7 +100,7 @@ header nav li a{
 
 .hookupContainer{
     display: flex;
-
+    
 }
 
 .trialTextContainer{
@@ -251,7 +251,7 @@ h1{
     height: 278px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 5px;
+    border-radius: 10px;
     border-width: 1px;
     border-color: lightgray;
 }
